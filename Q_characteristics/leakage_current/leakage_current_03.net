@@ -1,0 +1,15 @@
+* C:\SourceCode\GitHub\electronix\LTspice\LTspTransistors\Q_characteristics\leakage_current\leakage_current_03.asc
+Q2 nQ2c nQ2b nQ2e 0 2SA1579U3
+V§AmmE nRe nQ2e 0V Rser=0
+V§AmmB nQ2b nRb 0V Rser=0
+V§AmmC nQ2c NC_01 0V Rser=0
+V1 nV1+ 0 4.5 Rser=0
+Re nRe nV1+ 1.5k
+Rb nRb 0 150k
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\OwnerA\AppData\Local\LTspice\lib\cmp\standard.bjt
+.op
+* .tran 1000m
+.backanno
+.end

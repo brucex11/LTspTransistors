@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\SourceCode\GitHub\electronix\LTspice\LTspTransistors\Q_characteristics\leakage_current\leakage_current_03.asc
-Start Time: Sun Apr 14 15:39:35 2024
+Start Time: Wed May  8 20:11:39 2024
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -16,23 +16,23 @@ Semiconductor Device Operating Points:
                         --- Bipolar Transistors ---
 Name:       q2
 Model:   2sa1579u3
-Ib:       4.62e-12
+Ib:      -2.62e-05
 Ic:       0.00e+00
-Vbe:      4.50e+00
-Vbc:      1.02e-04
-Vce:      4.50e+00
-BetaDC:   0.00e+00
-Gm:      -2.41e-12
-Rpi:      1.00e+12
+Vbe:     -5.31e-01
+Vbc:     -5.12e-01
+Vce:     -1.97e-02
+BetaDC:  -0.00e+00
+Gm:       9.94e-04
+Rpi:      2.04e+05
 Rx:       1.93e+01
-Ro:       4.14e+11
-Cbe:      6.89e-12
-Cbc:      1.19e-11
+Ro:       1.15e+03
+Cbe:      4.87e-11
+Cbc:      7.18e-10
 Cjs:      0.00e+00
-BetaAC:  -2.41e+00
+BetaAC:   2.02e+02
 Cbx:      0.00e+00
-Ft:       1.86e-02
+Ft:       2.06e+05
 
 
-Total elapsed time: 0.202 seconds.
+Total elapsed time: 0.091 seconds.
 
